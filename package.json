@@ -1,12 +1,19 @@
 {
   "name": "hello-ang",
   "version": "0.0.0",
+<<<<<<< HEAD
   "homepage": "https://mayoengin.github.io/Employee-Registration-app",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --base-href /Employee-Registration-app/",
     "deploy": "ng build --prod --base-href https://mayoengin.github.io/Employee-Registration-app/ && ngh --dir=dist/hello-ang",
+=======
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+>>>>>>> a6ffb1c149ba94b326471c2b5d92299e2902ee74
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -37,7 +44,11 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+<<<<<<< HEAD
     "typescript": "~5.5.2",
     "angular-cli-ghpages": "^1.0.0"
+=======
+    "typescript": "~5.5.2"
+>>>>>>> a6ffb1c149ba94b326471c2b5d92299e2902ee74
   }
 }
