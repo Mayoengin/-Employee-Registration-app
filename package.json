@@ -1,7 +1,7 @@
 {
   "name": "hello-ang",
   "version": "0.0.0",
-  "homepage": "https://mayoengin.github.io/Employee-Registration-app",
+  "homepage": "https://mayoengin.github.io/-Employee-Registration-app",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
