@@ -296,7 +296,6 @@ button.btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .section-content.step2 .btn-success,
@@ -315,6 +314,7 @@ button.btn {
   background-color: #007bff;
   border-color: #007bff;
 }
+
 #progress-bar-container #line-progress {
   content: " ";
   width: 0;
@@ -325,4 +325,59 @@ button.btn {
   z-index: 2;
   border-radius: 50px;
   transition: width 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.25);
+}
+
+/* New CSS for fixing the skills section overflow */
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.skills-section .row {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.skills-section .col-md-4, 
+.skills-section .col-md-6, 
+.skills-section .col-md-12 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.skills-section .col-md-4 {
+  width: 30%;
+}
+
+.skills-section .col-md-6 {
+  width: 48%;
+}
+
+.skills-section .col-md-12 {
+  width: 100%;
+}
+
+.skills-item {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+}
+
+.skills-item .form-control {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .skills-section .col-md-4, 
+  .skills-section .col-md-6 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
